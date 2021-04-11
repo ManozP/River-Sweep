@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #2F4662;
+}
+
+.btn-outline-success {
+  background-color: ;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-outline-success:hover {
+  background-color: black;
+}
+
+@media screen and (min-width: 1200px) {
+  .blogcard {
+    height: 440px;
+    width: 350px;
+  }
+
+  .blogimg {
+    height: 220px;
+    width: 348px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .blogcard {
+    height: 400px;
+    width: 295px;
+  }
+
+  .blogimg {
+    height: 180px;
+    width: 293px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .blogcard {
+    height: 340px;
+    width: 227px;
+  }
+
+  .blogimg {
+    height: 125px;
+    width: 225px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blogcard {
+    height: 365px;
+    width: 255px;
+  }
+
+  .blogimg {
+    height: 160px;
+    width: 253px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .blogcard {
+    height: 400px;
+    width: 295px;
+  }
+
+  .blogimg {
+    height: 180px;
+    width: 293px;
+  }
+}
+
+.blogcard {
+  border: 1px solid #e9ecef;
+  box-shadow: 0 5px 5px 5px #e9ecef;
+  background-color:
+}
+
+.blogcard:hover {
+  transform: scale(1.02);
+}
+
+.blog_detail {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
